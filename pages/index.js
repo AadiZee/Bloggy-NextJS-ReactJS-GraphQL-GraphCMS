@@ -6,7 +6,7 @@ import BlogCard from "../components/BlogCard";
 
 const graphCMSAPI = process.env.REACT_APP_GRAPH_CMS_API;
 const graphcms = new GraphQLClient(
-  "https://api-ap-south-1.graphcms.com/v2/cl3rcu7hu8vww01xi8qyd1y93/master"
+ "YOUR API HERE"
 );
 
 const QUERY = gql`
